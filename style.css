@@ -107,3 +107,38 @@ body {
 .cross-spin {
   transform-origin: calc(0% + 0.9em) calc(0% + 0.9em);
 }
+
+@media (max-width: 600px) {
+  .link-div{
+    position: absolute;
+    bottom: 25%;
+    left: 8%;
+  }
+  .link-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+    /* justify-content: center; */
+  }
+  .des-cont{
+    width: 80%;
+    height: 30%;
+  }
+  .des{
+    width: 100%;
+    /* background-color: rosybrown; */
+    position: absolute;
+    right: 50%;
+    top: 45%;
+  }
+  .skill-cont{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+  }
+  .project_items{
+    
+    margin: 30px 0;
+  }
+}
