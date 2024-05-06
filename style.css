@@ -138,11 +138,11 @@ body {
     flex-direction: column;
   }
   .project_container{
-    background-color: red;
+    /* background-color: red; */
     /* padding: 0 30px; */
   }
   .project_items{
-    background-color: royalblue;
+    /* background-color: royalblue; */
     width: 100%;
     padding: 0;
     /* height: 70%; */
