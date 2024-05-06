@@ -108,10 +108,10 @@ body {
   transform-origin: calc(0% + 0.9em) calc(0% + 0.9em);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .link-div{
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     left: 8%;
   }
   .link-cont{
@@ -130,15 +130,33 @@ body {
     /* background-color: rosybrown; */
     position: absolute;
     right: 50%;
-    top: 45%;
+    top: 50%;
   }
   .skill-cont{
     /* background-color: rebeccapurple; */
     display: flex;
     flex-direction: column;
   }
+  .project_container{
+    background-color: red;
+    /* padding: 0 30px; */
+  }
   .project_items{
-    
+    background-color: royalblue;
+    width: 100%;
+    padding: 0;
+    /* height: 70%; */
     margin: 30px 0;
+    overflow: hidden;
+  }
+  .aspect-video{
+    width: 75%;
+  }
+  .abt-img{
+    margin: 30px 0;
+    margin-left: 90px;
+  }
+  .project-heading{
+    margin-left: 60px;
   }
 }
